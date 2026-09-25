@@ -1,0 +1,22 @@
+{
+  "name": "ai-agent-homework-2-0021004",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Agent 課後作業 2：Function Calling 計算機",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "tool": "node function_call.js",
+    "test:calculator": "node --test tests/homework-calculator.test.js"
+  },
+  "engines": { "node": ">=22.0.0" },
+  "dependencies": {
+    "@inquirer/prompts": "^8.4.3",
+    "dotenv": "^17.4.2",
+    "lowdb": "^7.0.1",
+    "openai": "^6.38.0",
+    "ora": "^9.4.0",
+    "zod": "^4.4.3"
+  }
+}

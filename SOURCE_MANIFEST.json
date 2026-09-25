@@ -1,0 +1,67 @@
+{
+  "student": {
+    "name": "謝宜村 YiTsiun Hsieh",
+    "id": "0021004",
+    "group": 5
+  },
+  "repository": "https://github.com/kaochenlong/ai-agent-js-v8",
+  "projects": [
+    {
+      "id": 1,
+      "dir": "homework1-role-chatbot",
+      "branch": "1.4-openai-api-with-memory",
+      "commit": "8582bca6938551d1cb7f83dd8c6d12469d1e461f",
+      "changed": [
+        "main.js"
+      ]
+    },
+    {
+      "id": 2,
+      "dir": "homework2-calculator-tool",
+      "branch": "2.5-tool-calling-current-time",
+      "commit": "5ca9ffc72ad4fe0a3583164d5788550047c30f8e",
+      "changed": [
+        "function_call.js",
+        "tools/index.js"
+      ],
+      "added": [
+        "tools/arithmetic.js",
+        "tools/calculate.js",
+        "tests/homework-calculator.test.js"
+      ]
+    },
+    {
+      "id": 3,
+      "dir": "homework3-mini-knowledge-base",
+      "branch": "3.2-rag-search-text",
+      "commit": "f53b48b70bc2223d0ca08e7d2ad690a08f46eaa2",
+      "changed": [
+        "lib/qdrant.js"
+      ],
+      "added": [
+        "data/languages.json",
+        "scripts/embed-languages.js",
+        "scripts/search-languages.js"
+      ]
+    },
+    {
+      "id": 4,
+      "dir": "homework4-weather-time-tools",
+      "branch": "2.5-tool-calling-current-time",
+      "commit": "5ca9ffc72ad4fe0a3583164d5788550047c30f8e",
+      "changed": [
+        "function_call.js"
+      ]
+    },
+    {
+      "id": 5,
+      "dir": "homework5-sql-teacher",
+      "branch": "5.1-agents-md",
+      "commit": "a2f4bc28e25089c90e9eecccb1b511d6ce9c8b5b",
+      "changed": [
+        "main.js",
+        "AGENTS.md"
+      ]
+    }
+  ]
+}

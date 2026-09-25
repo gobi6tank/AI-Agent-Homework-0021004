@@ -1,0 +1,21 @@
+{
+  "name": "ai-agent-homework-3-0021004",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Agent 課後作業 3：程式語言迷你知識庫",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "embed:languages": "node scripts/embed-languages.js",
+    "search:languages": "node scripts/search-languages.js"
+  },
+  "engines": { "node": ">=22.0.0" },
+  "dependencies": {
+    "@inquirer/prompts": "^8.4.3",
+    "@qdrant/js-client-rest": "^1.18.0",
+    "dotenv": "^17.4.2",
+    "openai": "^6.38.0",
+    "ora": "^9.4.0"
+  }
+}
