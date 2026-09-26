@@ -1,10 +1,14 @@
-# 最終繳交前 checklist
+# 最終繳交前 Checklist
 
-- [ ] 五個子專案均已 `npm install` 成功
-- [ ] `.env` 沒有加入 ZIP / Git
-- [ ] HW1 README 已貼 5 輪以上真實對話
-- [ ] HW2 README 已貼 `calculate` 真實呼叫截圖，且結果正確
-- [ ] HW3 README 已有 3 個真實查詢與相似度分數
-- [ ] HW4 README 已有三種問題的真實工具呼叫紀錄
-- [ ] HW5 README 已有三段 `[由 XX 回答]` 真實紀錄
-- [ ] 最後再次搜尋 `sk-proj-`、`OPENAI_API_KEY=` 後面是否有值
+- [x] 五個子專案均已完成安裝與真實驗收
+- [x] `.env` 未加入 Repository
+- [x] `.history/` 未加入 Repository
+- [x] `node_modules/` 未加入 Repository
+- [x] HW1 README 已附 5 輪以上真實對話
+- [x] HW2 README 已附 `calculate` 真實呼叫紀錄與截圖
+- [x] HW3 README 已附 3 個真實搜尋結果與相似度分數
+- [x] HW4 README 已附時間、天氣、雙工具三種真實驗收結果
+- [x] HW5 README 已附 SQL、Python、班導師三種真實 handoff 紀錄
+- [x] 已檢查 Repository 無真實 API Key
+- [x] 已提供各題 `.env.example`
+- [x] 五題指定 branch / commit 均已記錄
