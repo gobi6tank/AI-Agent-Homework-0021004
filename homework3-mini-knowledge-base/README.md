@@ -35,7 +35,7 @@ node scripts/search-languages.js
 
 ## 測試結果
 
-修補包測試與外部服務驗收是不同範圍。本包已完成語法與靜態檢查；外部服務驗收仍需在可連外環境執行。無實測紀錄的項目維持未完成。
+目前狀態：HW3 已完成 Qdrant Cloud 真實驗收，5 筆知識已成功寫入專屬 collection，3 組語意搜尋與相似度分數皆已取得。
 
 <!-- REAL_RESULTS_START -->
 ## 實際搜尋紀錄
