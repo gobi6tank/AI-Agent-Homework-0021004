@@ -20,7 +20,7 @@
 
 - 真實 API Key 不在本 Repository 中。
 - 每題 `.env.example` 只有欄位名稱；請複製成 `.env` 再填入有效金鑰。
-- - `.env`、`.history/` 與 `node_modules/` 不進版控；經確認不含敏感資訊的驗收 evidence 則保留於 Repository 供作業查核。
+- `.env`、`.history/` 與 `node_modules/` 不進版控；經確認不含敏感資訊的驗收 evidence 則保留於 Repository 供作業查核。
 
 ## 安裝方式
 
