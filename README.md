@@ -21,7 +21,6 @@
 - 真實 API Key 不在本 Repository 中。
 - 每題 `.env.example` 只有欄位名稱；請複製成 `.env` 再填入有效金鑰。
 - - `.env`、`.history/` 與 `node_modules/` 不進版控；經確認不含敏感資訊的驗收 evidence 則保留於 Repository 供作業查核。
-- 先前曾貼在聊天中的共用 API Key 不應再寫入任何作業檔；正式執行前建議使用課程仍有效且已確認未外洩的金鑰。
 
 ## 安裝方式
 
