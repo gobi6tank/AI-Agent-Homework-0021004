@@ -18,9 +18,9 @@
 
 ## 安全
 
-- 真實 API Key 不在本壓縮檔內。
+- 真實 API Key 不在本 Repository 中。
 - 每題 `.env.example` 只有欄位名稱；請複製成 `.env` 再填入有效金鑰。
-- `.env`、`.history/` 與執行證據檔預設不進版控。
+- `.env、.history/ 與 node_modules/ 不進版控；經確認不含敏感資訊的驗收 evidence 則保留於 Repository 供作業查核。
 - 先前曾貼在聊天中的共用 API Key 不應再寫入任何作業檔；正式執行前建議使用課程仍有效且已確認未外洩的金鑰。
 
 ## 安裝方式
@@ -38,12 +38,14 @@ npm start
 
 ## 目前完成狀態
 
-程式碼、資料、README、指定分支/commit 紀錄與本機靜態驗證已完成。由於目前執行環境無法直接連線 GitHub / OpenAI / Qdrant / OpenWeather，以下「真實外部服務驗收證據」仍必須在可連外的課程電腦執行後貼回各題 README：
+五題作業皆已完成程式實作與真實驗收，相關執行紀錄已放入各題 README 與 `evidence/`。
 
-1. 作業 1：5 輪以上真實模型對話。
-2. 作業 2：AI 真正呼叫 `calculate` 的終端截圖。
-3. 作業 3：3 次 Qdrant 真實搜尋結果與相似度分數。
-4. 作業 4：時間、天氣、時間+天氣三種真實工具選擇結果。
-5. 作業 5：3 段真實 handoff，均保留 `[由 XX 回答]`。
+| 作業 | 主題 | 真實驗收結果 |
+|---|---|---|
+| HW1 | Memory／角色聊天機器人 | PASS：完成 6 輪真實對話，AI 能延續 Tank、B1 與製造業情境 |
+| HW2 | Function Calling／計算機 | PASS：AI 實際呼叫 `calculate`，結果 20、1020 正確 |
+| HW3 | Qdrant Semantic Search | PASS：5 筆知識寫入專屬 collection，完成 3 組真實搜尋與 similarity score |
+| HW4 | Weather + Time Multi-Tool | PASS：時間、天氣及雙工具整合皆實際呼叫成功 |
+| HW5 | Agent Handoff／SQL 老師 | PASS：SQL、Python、班導師三種 routing 均實際驗證成功 |
 
-請勿用模擬輸出、預期值或手動文字取代上述驗收證據。
+所有真實 API Key、`.env`、`.history/` 與 `node_modules/` 均未提交至 Repository。
