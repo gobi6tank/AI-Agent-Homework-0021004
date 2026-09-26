@@ -2,7 +2,7 @@
 
 謝宜村｜工號 0021004｜Group 5
 
-**目前狀態：完整可執行專案已重建；模型與外部服務正式驗收證據尚待在可連外的課程環境執行。**
+**目前狀態：HW2 已完成真實 Function Calling 驗收；AI 已實際呼叫 calculate 工具，計算結果 20 與 1020 均正確，並已附終端截圖證據。**
 
 ## 原始基底
 
@@ -30,7 +30,7 @@ node function_call.js "請用計算機計算 (10 + 5) * 2"
 node function_call.js "1200 元打八五折是多少？請用計算機算"
 ```
 
-驗收預期分別為 20、30、1020；必須看到真正的 `[呼叫 tool] calculate(...)`、`[工具結果]` 與模型回答。這些預期值不是 API 執行紀錄。截取真實終端畫面（勿包含金鑰），存成 `evidence/hw2-tool-call.png`，再在本 README 插入圖片。自行解析算式，不使用 eval。新增測試檔可用 `node --test tests/homework-calculator.test.js` 執行。
+驗收預期分別為 20、30、1020；必須看到真正的 `[呼叫 tool] calculate(...)`、`[工具結果]` 與模型回答。這些預期值不是 API 執行紀錄。截取真實終端畫面（勿包含金鑰），存成 `evidence/hw2-function-calling.png`，再在本 README 插入圖片。自行解析算式，不使用 eval。新增測試檔可用 `node --test tests/homework-calculator.test.js` 執行。
 
 ## 實際 Function Calling 驗收結果
 
